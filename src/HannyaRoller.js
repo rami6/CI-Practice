@@ -21,7 +21,7 @@ export default class HannyaRoller {
   }
 
   updateLayout () {
-    const { length } = this._text;
+    const { length } = this._text
     const screenWidth = this._el.clientWidth;
     const screenHeight = this._el.clientHeight;
     const layout = this._findBestLayout(length, screenWidth, screenHeight);
